@@ -1,0 +1,5 @@
+message Module {
+    required string name;
+    optional string init script;
+    
+}

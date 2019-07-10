@@ -6,6 +6,7 @@ pages:
   stage: deploy
   script:
   - mkdir public
+  - mv figures public
   - rst2html README.rst public/index.html
   artifacts:
     paths:

@@ -26,9 +26,11 @@ What still needs to be figured out
 - What's the best way to make this easy for other Devs to use?
 - What are some default failure modes/exceptions?
 
-Proto Description
------------------
-The information that the initialization proto will provide are:
+Proto Descriptions
+------------------
+Initialization Proto
+~~~~~~~~~~~~~~~~~~~~
+The information that the initialization proto will provide are as follows
 
 - Module name
 - How to initialize
@@ -42,11 +44,13 @@ The information that the initialization proto will provide are:
 - Public info/Data
 - Meta data?
 
-Response proto:
+Response proto
+~~~~~~~~~~~~~~
+The idea of this protobuf response is based on `Rust's std::option type <https://doc.rust-lang.org/std/option/>`_.
 
 - Success/Fail
     + if fail why
-- Data
+    + Data
 
 Examples
 --------
@@ -54,4 +58,4 @@ See the examples folder.
 
 Conclusion
 ----------
-yes
+Yes.

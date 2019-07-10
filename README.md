@@ -1,0 +1,1 @@
+# wasm-rpc-proto-spec

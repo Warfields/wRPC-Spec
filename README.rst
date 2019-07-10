@@ -10,8 +10,12 @@ RPC Overview
 Proto Description
 -----------------
 .. figure:: figures/landing-2.svg
+    :align: center
+    :alt: A picture of a server and node structure
 
-Borrowed from `gRCP <https://grpc.io/docs/guides/>`_
+    Borrowed from `gRCP <https://grpc.io/docs/guides/>`_
+
+ohea
 
 Examples
 --------

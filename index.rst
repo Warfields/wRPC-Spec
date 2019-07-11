@@ -15,11 +15,3 @@ less hazardous to your sanity.
    README
    jsBindings
    wasmBindings
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`

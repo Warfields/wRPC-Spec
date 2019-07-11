@@ -176,3 +176,5 @@ epub_exclude_files = ['search.html']
 
 
 # -- Extension configuration -------------------------------------------------
+extensions.append('sphinx.ext.todo')
+todo_include_todos=True

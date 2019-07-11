@@ -5,13 +5,16 @@
 
 Welcome to wRPC's documentation!
 ================================
+wRPC is a RPC framework for making interacting with WebAssembly modules a lot
+less hazardous to your sanity.
 
 .. toctree::
    :maxdepth: 1
    :caption: Contents:
 
    README
-
+   jsBindings
+   wasmBindings
 
 
 Indices and tables

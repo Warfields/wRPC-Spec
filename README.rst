@@ -47,21 +47,27 @@ The information that the initialization proto will provide are as follows
 Curent Draft
 ++++++++++++
 .. literalinclude:: examples/init.proto
-    :linenos:
     :language: proto
 
 
 Response proto
 ~~~~~~~~~~~~~~
 The idea of this protobuf response is based on `Rust's std::option type <https://doc.rust-lang.org/std/option/>`_.
+Depending on the error and if the remote client can raise an exception wRPC may
+insert a generic failure.
 
 - Success/Fail
     + if fail why
     + Data
 
+Current Draft
++++++++++++++
+.. literalinclude:: examples/result.proto
+    :language: proto
+
 Examples
 --------
-See the examples folder.
+See the `examples folder <https://gitlab.com/warfields/wRPC-Spec/tree/master/examples>`_.
 
 What's next?
 ------------

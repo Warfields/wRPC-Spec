@@ -27,6 +27,7 @@ message Function{
     repeated Parameter parameter = 2;    
     required Type returnType = 3;
     bytes returnedValue = 4;
+    bool canRaiseException = 5;
 }
 
 message Parameter {

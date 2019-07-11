@@ -1,5 +1,5 @@
 Wasm RPC Protocol Specification
-+++++++++++++++++++++++++++++++
+===============================
 This is the specification of the Protocol Buffers that wasm/node modules will
 use to setup their RPC interfaces with the central RPC server.
 
@@ -43,6 +43,13 @@ The information that the initialization proto will provide are as follows
     + async?
 - Public info/Data
 - Meta data?
+
+Curent Draft
+++++++++++++
+.. literalinclude:: examples/init.proto
+    :linenos:
+    :language: proto
+
 
 Response proto
 ~~~~~~~~~~~~~~

@@ -1,5 +1,5 @@
 Wasm RPC Protocol Specification
-===============================
++++++++++++++++++++++++++++++++
 This is the specification of the Protocol Buffers that wasm/node modules will
 use to setup their RPC interfaces with the central RPC server.
 

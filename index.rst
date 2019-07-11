@@ -8,6 +8,12 @@ Welcome to wRPC's documentation!
 wRPC is a RPC framework for making interacting with WebAssembly modules a lot
 less hazardous to your sanity.
 
+Secondary Goals
+---------------
+#. Interact with other RPC's like gRPC
+#. Easy WebIDL bindings
+#. Easy JS Project Templates available to those who don't know JS.
+
 .. toctree::
    :maxdepth: 1
    :caption: Contents:

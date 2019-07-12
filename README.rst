@@ -19,6 +19,16 @@ When a node is initialized it will pass a protobuf describing it's functions
 and how to call them. Once initialized any other module or direct JS Call can
 be made to that module.
 
+.. figure:: figures/overall.svg
+    :align: center
+    :alt: Here's a nickel buy yourself a real computer
+
+    What the overall structure of wRPC looks like
+
+The blue nodes above represent the wasm modules that wRPC will orchestrate.
+Eventually wRPC will communicate with more traditional RPC frameworks such as
+gRCP.
+
 What still needs to be figured out
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 - Will Data be returned as another proto or as a direct JS value?

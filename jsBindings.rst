@@ -11,20 +11,21 @@ to the RCP network.
     import wRPC;
 
     // Init a wasm/wat module and have wRPC infer interaction
-    wRPC.initModule("foo.wasm");
+    foo = wRPC.initModule("foo.wasm");
 
     // Init with compiler template
-    wRPC.initModule("foo.wasm", "emscripten");
+    foo = wRPC.initModule("foo.wasm", "emscripten");
 
     // Init with custom protocol buffer
-    wRPC.initModule("foo.wasm", "foo.proto");
+    foo = wRPC.initModule("foo.wasm", "foo.proto");
 
 Next, modules can be globally imported.
 
 .. code-block:: JavaScript
 
-    import wRPC.foo as foo;
-    baz = foo.bar(1337);
+    baz = foo.call("bar","1337"); // equivalent to foo.bar(1337)
+
+:todo: look at webIDL to make foo.bar(1337)
 
 wRPC will take care of all of the setup to get your wasm modules for you so
 that they will appear as regular JS Modules.

@@ -56,7 +56,7 @@ The information that the initialization proto will provide are as follows
 
 Curent Draft
 ++++++++++++
-.. literalinclude:: examples/init.proto
+.. literalinclude:: examples/RPC_Module.proto
     :language: proto
 
 

@@ -10,7 +10,7 @@ RPC Overview
     :align: center
     :alt: A picture of a server and node structure
 
-    Borrowed from `gRCP <https://grpc.io/docs/guides/>`_
+    Borrowed from `gRPC <https://grpc.io/docs/guides/>`_
 
 Overall in the MVP of this RPC Framework only the above server and node
 implimentation will be used. Direct node communication will not be supported.
@@ -27,7 +27,7 @@ be made to that module.
 
 The blue nodes above represent the wasm modules that wRPC will orchestrate.
 Eventually wRPC will communicate with more traditional RPC frameworks such as
-gRCP.
+gRPC.
 
 What still needs to be figured out
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

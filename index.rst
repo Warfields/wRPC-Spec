@@ -21,3 +21,5 @@ Secondary Goals
    README
    jsBindings
    wasmBindings
+   codeExamples
+   goals

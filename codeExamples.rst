@@ -21,6 +21,7 @@ Describes a Santa function.
     #include<wRPC>
     #include<vector>
     using namespace std;
+    wRPC.exportAll();
     
     bool deliver(vector<string> gifts, int globalRegion){
         // Does delivering

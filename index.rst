@@ -19,7 +19,9 @@ Secondary Goals
    :caption: Contents:
 
    README
+   goals
    jsBindings
    wasmBindings
    codeExamples
-   goals
+   boiler
+
